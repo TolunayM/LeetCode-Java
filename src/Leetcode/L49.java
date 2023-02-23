@@ -8,7 +8,7 @@ public class L49 {
     public List<List<String>> groupAnagrams(String[] strs) {
 
         List<List<String>> strList = new ArrayList<>();
-        
+
         if(strs.length == 0){
             return strList;
         }
