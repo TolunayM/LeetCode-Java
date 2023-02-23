@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class SearchInsertPosition35 {
+public class L35 {
 
     public int searchInsert(int[] nums, int target) {
 

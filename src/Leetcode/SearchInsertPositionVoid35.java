@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class SearchInsertPosition35 {
+public class SearchInsertPositionVoid35 {
     public void searchInsert(int[] nums, int target) {
 
         // find target if exist
@@ -27,7 +27,7 @@ public class SearchInsertPosition35 {
     }
 
     public static void main(String[] args) {
-        SearchInsertPosition35 ob = new SearchInsertPosition35();
+        SearchInsertPositionVoid35 ob = new SearchInsertPositionVoid35();
         ob.searchInsert(new int[]{1,3,5,6},2);
     }
 }

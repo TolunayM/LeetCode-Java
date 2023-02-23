@@ -1,11 +1,10 @@
 package Leetcode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ValidAnagram242 {
+public class L242 {
 
         public boolean isAnagram(String s, String t) {
 
@@ -34,7 +33,7 @@ public class ValidAnagram242 {
         }
 
     public static void main(String[] args) {
-        ValidAnagram242 t = new ValidAnagram242();
+        L242 t = new L242();
 
         t.isAnagram("da","ad");
     }
