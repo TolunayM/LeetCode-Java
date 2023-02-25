@@ -46,16 +46,22 @@ public class L347 {
             }
         });
 
+        int[] keysArray = new int[10];
         // put data from sorted list to hashmap
         HashMap<Integer, Integer> temp = new LinkedHashMap<Integer, Integer>();
         for (Map.Entry<Integer, Integer> aa : list) {
             temp.put(aa.getKey(), aa.getValue());
+            keysArray[list.indexOf(aa)] = aa.getKey();
         }
 
+        int[] realKeys = new int[k];
+
         List keys = new ArrayList(temp.keySet());
+
         System.out.println("Without sorted " + map);
+        System.out.println(realKeys);
         System.out.println("Sorted " + temp);
-        System.out.println("keys " + keys);
+        System.out.println("keys " + Arrays.toString(keysArray));
 
 
 
@@ -64,6 +70,6 @@ public class L347 {
 
     public static void main(String[] args) {
         L347 obj = new L347();
-        obj.topKFrequent(new int[]{1,2,2,2,5,2,3,1,2,1,4,5,3,3,3},2);
+        obj.topKFrequent(new int[]{3,0,1,1,1,2,2,2,2,1,0},2);
     }
 }

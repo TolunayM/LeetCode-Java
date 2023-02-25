@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="898f7c07-f8de-4f8c-b4c0-8d5b220cad0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/L347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/L9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/L347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/L347.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.L347">
+  <component name="RunManager" selected="Application.L9">
     <configuration name="L125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.L125" />
       <module name="LeetCode" />
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L540" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.L540" />
+    <configuration name="L9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.L9" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L9" />
         <item itemvalue="Application.L347" />
         <item itemvalue="Application.L125" />
         <item itemvalue="Application.L49" />
         <item itemvalue="Application.L242" />
-        <item itemvalue="Application.L540" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,8 @@
       <workItem from="1677101627528" duration="1334000" />
       <workItem from="1677111482078" duration="789000" />
       <workItem from="1677170723528" duration="639000" />
-      <workItem from="1677173034597" duration="14661000" />
+      <workItem from="1677173034597" duration="16642000" />
+      <workItem from="1677256593099" duration="3696000" />
     </task>
     <servers />
   </component>
