@@ -34,7 +34,7 @@ class L205 {
     }
 
     public static void main(String[] args) {
-        Solution205 obj = new Solution205();
+        L205 obj = new L205();
         obj.isIsomorphic("bar", "foo");
     }
 }
